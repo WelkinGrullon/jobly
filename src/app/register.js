@@ -2,7 +2,7 @@ import blueFolder from './285658_blue_folder_icon.png'
 import Image from 'next/image'
 import check from './checkmark.png'
 import Link from 'next/link'
-export default function Home() {
+export default function register() {
   return (
         <main className="  bg-gray-50 flex flex-row h-screen justify-center items-center lg:p-20  ">
           <section className="  gap-12 h-5/6 w-5/6 bg-white flex flex-col lg:basis-1/2 container justify-center items-center">
@@ -18,7 +18,7 @@ export default function Home() {
               <a className=' pt-4 text-sm cursor-pointer hover:text-blue-400'>Forgot Password</a>
               <input className=' text-gray-300 bg-jobly p-2 rounded cursor-pointer' type='submit' value='Sign In' />
             </form>
-            <p>Don't have an account? <Link href='register'>Register</Link> </p>
+            <p>Don't have an account? <Link href='/register'>Register</Link> </p>
           </section>
           <section className="hidden lg:flex flex-1 basis-1/2 content-center gap-12 h-5/6  w-5/6 bg-jobly flex-col container justify-center items-center ">
             <ul className='text-white gap-5 flex flex-col text-sm'>

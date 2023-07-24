@@ -1,6 +1,6 @@
-import blueFolder from './285658_blue_folder_icon.png'
+import blueFolder from '../285658_blue_folder_icon.png'
 import Image from 'next/image'
-import check from './checkmark.png'
+import check from '../checkmark.png'
 import Link from 'next/link'
 export default function Home() {
   return (
